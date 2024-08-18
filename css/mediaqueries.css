@@ -1,0 +1,59 @@
+@media screen and (min-width: 650px) {/* DISPLAY NONE SIRVE PARA OCULTAR ICONOS O CUALQUIER COSA */
+    .menuHamburguesa{
+        display: none; 
+    }
+    }
+
+@media (max-width: 650px) and (min-width: 300px) {
+    .navbar a {
+        display: none;
+    }
+
+     .menuHamburguesa{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: end;
+        align-content: end;
+    } 
+
+    h1{
+        font-size: 25px ;
+    }
+
+    .carrousell__1{
+        width: 350px;
+    }
+    .carrousell__2{
+        width: 350px;
+    }
+    .carrousell__3{
+        width: 350px;
+    }
+
+    p{
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        font-size: 15px;
+    }
+
+    .imagenes__1{
+        width: 350px;
+    }
+    .imagenes__2{
+        width: 350px;
+    }
+    .imagenes__3{
+        width: 350px;
+    }
+    .imagenes__4{
+        width: 350px;
+    }
+
+    .footer__logo{
+        width: 100px;
+   
+    }
+
+}
